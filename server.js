@@ -6,8 +6,8 @@ const app = express();
 const fs = require('fs')
 
 
-var privateKey = fs.readFileSync('localhost+2-key.pem');
-var certificate = fs.readFileSync('localhost+2.pem');
+var privateKey = fs.readFileSync('localhost+3-key.pem');
+var certificate = fs.readFileSync('localhost+3.pem');
 const options = {
 	key: privateKey,
 	cert: certificate
